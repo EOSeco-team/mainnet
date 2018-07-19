@@ -1,0 +1,1 @@
+a example of eos mainnet dictionary.

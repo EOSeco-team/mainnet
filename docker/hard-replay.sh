@@ -10,4 +10,5 @@ docker run -ti --detach --name $container_name \
     $docker_tag \
         /opt/eosio/bin/nodeos --data-dir=/data \
         --config-dir=/etc/nodeos \
-		--hard-replay-blockchain
+		--hard-replay-blockchain \
+		—wasm-runtime wavm
